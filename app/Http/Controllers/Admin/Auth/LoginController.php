@@ -52,31 +52,7 @@ class LoginController extends Controller
 	}
 
 
-	/**
-	 * The user has been authenticated.
-	 *
-	 * @param  \Illuminate\Http\Request  $request
-	 * @param  mixed  $user
-	 * @return mixed
-	 */
-	protected function authenticated(Request $request, $user)
-	{
-		//
-	}
-
-
-	/**
-	 * The user has logged out of the application.
-	 *
-	 * @param  \Illuminate\Http\Request  $request
-	 * @return mixed
-	 */
-	protected function loggedOut(Request $request)
-	{
-		//
-	}
-
-	/**
+    /**
 	 * Get the guard to be used during authentication.
 	 *
 	 * @return \Illuminate\Contracts\Auth\StatefulGuard
