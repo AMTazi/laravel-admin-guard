@@ -76,7 +76,8 @@ class LoginController extends Controller
 		//
 	}
 
-	/**
+
+    /**
 	 * Get the guard to be used during authentication.
 	 *
 	 * @return \Illuminate\Contracts\Auth\StatefulGuard

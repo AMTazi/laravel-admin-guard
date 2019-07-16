@@ -21,7 +21,7 @@ Route::group(['prefix' => 'admin'], function () {
 
         Route::post('login', 'Admin\Auth\LoginController@login')->name('admin.auth.login');
 
-        Route::post('logout', 'Admin\Auth\LoginController@showLoginForm')->name('admin.auth.logout');
+        Route::post('logout', 'Admin\Auth\LoginController@logout')->name('admin.auth.logout');
 
         Route::post('update-password', 'Admin\Auth\PasswordUpdateController@updatePassword')->name('admin.auth.password.update');
 
